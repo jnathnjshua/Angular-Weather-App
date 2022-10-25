@@ -10,8 +10,8 @@
 
 <div class="container" *ngIf="weatherData">
   <div class="upper-data">
-    <img src="../assets/hot.jpg" *ngIf="weatherData.current.temp_f > 59">
-    <img src="../assets/cold.jpg" *ngIf="weatherData.current.temp_f <= 59">
+    <img src="..jnathnjshua/assets/hot.jpg" *ngIf="weatherData.current.temp_f > 59">
+    <img src="..jnathnjshua/assets/cold.jpg" *ngIf="weatherData.current.temp_f <= 59">
     <div class="weather-data">
       <div class="location">{{ weatherData.location.name }}</div>
       <div class="temperature">{{ weatherData.current.temp_f | number: '1.0-0'}}°F</div>
@@ -25,7 +25,7 @@
     <div class="more-info-container">
       <div class="info-block">
         <div class="info-block-label">
-          <img src="../assets/min.png">
+          <img src="..jnathnjshua/assets/min.png">
           <span>min</span>
         </div>
         <div class="info-block-value">
@@ -35,7 +35,7 @@
       
       <div class="info-block">
         <div class="info-block-label">
-          <img src="../assets/max.png">
+          <img src="..jnathnjshua/assets/max.png">
           <span>max</span>
         </div>
         <div class="info-block-value">
@@ -45,7 +45,7 @@
       
       <div class="info-block">
         <div class="info-block-label">
-          <img src="../assets/humidity.png">
+          <img src="..jnathnjshua/assets/humidity.png">
           <span>humidity</span>
         </div>
         <div class="info-block-value">
@@ -55,7 +55,7 @@
 
       <div class="info-block">
         <div class="info-block-label">
-          <img src="../assets/wind.png">
+          <img src="..jnathnjshua/assets/wind.png">
           <span>wind</span>
         </div>
         <div class="info-block-value">
