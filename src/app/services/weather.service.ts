@@ -12,6 +12,6 @@ export class WeatherService {
   constructor(private http: HttpClient) { }
 
   getWeatherData(cityName: string): Observable<weatherData> {
-    return this.http.get<weatherData>(environment.weatherApiBaseUrl + environment.typeOfCall + environment.apiKey + environment.firstParameter + cityName + environment.lastParameter)
+    return this.http.get<weatherData>('https://api.weatherapi.com/v1/' + 'forecast.json?key=' + 'fb3f4ef9718f4ce492d62915222410' + '&q=' + cityName + '&days=1&aqi=no&alerts=no'
   }
 }
