@@ -5,13 +5,13 @@
 </div>
 
 <div class="logo">
-  <img src="../assets/Logo.png" width="15%" alt="logo name" style="position: fixed; top: 1px; left: 11px;">
+  <img src="..jnathnjshua/Angular-Weather-App/src/assets/Logo.png" width="15%" alt="logo name" style="position: fixed; top: 1px; left: 11px;">
 </div>
 
 <div class="container" *ngIf="weatherData">
   <div class="upper-data">
-    <img src="..jnathnjshua/assets/hot.jpg" *ngIf="weatherData.current.temp_f > 59">
-    <img src="..jnathnjshua/assets/cold.jpg" *ngIf="weatherData.current.temp_f <= 59">
+    <img src="..jnathnjshua/Angular-Weather-App/src/assets/hot.jpg" *ngIf="weatherData.current.temp_f > 59">
+    <img src="..jnathnjshua/Angular-Weather-App/src/assets/cold.jpg" *ngIf="weatherData.current.temp_f <= 59">
     <div class="weather-data">
       <div class="location">{{ weatherData.location.name }}</div>
       <div class="temperature">{{ weatherData.current.temp_f | number: '1.0-0'}}°F</div>
@@ -25,7 +25,7 @@
     <div class="more-info-container">
       <div class="info-block">
         <div class="info-block-label">
-          <img src="..jnathnjshua/assets/min.png">
+          <img src="..jnathnjshua/Angular-Weather-App/src/assets/min.png">
           <span>min</span>
         </div>
         <div class="info-block-value">
@@ -35,7 +35,7 @@
       
       <div class="info-block">
         <div class="info-block-label">
-          <img src="..jnathnjshua/assets/max.png">
+          <img src="..jnathnjshua/Angular-Weather-App/src/assets/max.png">
           <span>max</span>
         </div>
         <div class="info-block-value">
@@ -45,7 +45,7 @@
       
       <div class="info-block">
         <div class="info-block-label">
-          <img src="..jnathnjshua/assets/humidity.png">
+          <img src="..jnathnjshua/Angular-Weather-App/src/assets/humidity.png">
           <span>humidity</span>
         </div>
         <div class="info-block-value">
@@ -55,7 +55,7 @@
 
       <div class="info-block">
         <div class="info-block-label">
-          <img src="..jnathnjshua/assets/wind.png">
+          <img src="..jnathnjshua/Angular-Weather-App/src/assets/wind.png">
           <span>wind</span>
         </div>
         <div class="info-block-value">
